@@ -1,0 +1,10 @@
+from Triangle_class.Class import Triangle
+a=Triangle(2)
+b=Triangle(2,4)
+#c=Triangle(-4,3,9)
+print(a)
+print(a.Is_Right_Angle_Triangle())
+print(b)
+#print(c)
+d=a.clone()
+print(d)
